@@ -57,3 +57,4 @@ resource "aws_cloudwatch_metric_alarm" "ec2_cpu" {
         InstanceId = aws_instance.example.id
       }
 }
+
